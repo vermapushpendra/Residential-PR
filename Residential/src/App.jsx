@@ -1,12 +1,9 @@
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import React from 'react'
 
 function App() {
-  
   return (
     <>
-      <h1>Welcome</h1>
+    <h1>Welcome</h1>
     </>
   )
 }
