@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    @apply bg-purple-100;
+}
+
+/* carousel slick css */
+.slick-slider .slick-dots li button:before {
+    color: rgb(255, 0, 0);
+}
+
+.slick-slider .slick-next:before {
+    color: rgb(194 65 12);
+    font-size: 25px;
+}
+
+.slick-slider .slick-prev:before {
+    color: rgb(194 65 12);
+    font-size: 25px;
+}

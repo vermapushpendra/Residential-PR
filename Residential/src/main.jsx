@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Layout from './Layout.jsx'
 import Home from './components/Home/Home.jsx'
@@ -10,6 +9,9 @@ import Gallery from './components/Gallery/Gallery.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Admin from './components/Admin/Admin.jsx'
 import Advisor from './components/Advisor/Advisor.jsx'
+import About from './components/About/About.jsx'
+
+
 
 const router = createBrowserRouter([
   {
@@ -22,27 +24,31 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/',
+        path: 'Achievements',
         element: <Achievements />,
       },
       {
-        path: '/',
+        path: 'Projects',
         element: <Projects />,
       },
       {
-        path: '/',
+        path: 'About',
+        element: <About />,
+      },
+      {
+        path: 'Gallery',
         element: <Gallery />,
       },
       {
-        path: '/',
+        path: 'Contact',
         element: <Contact />,
       },
       {
-        path: '/',
+        path: 'Admin',
         element: <Admin />,
       },
       {
-        path: '/',
+        path: 'Advisor',
         element: <Advisor />,
       },
 
