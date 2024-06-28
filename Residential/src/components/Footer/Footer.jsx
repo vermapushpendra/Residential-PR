@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Link to="/" className="flex items-center">
+            <Link to="/home" className="flex items-center">
               <img
                 src="/src/assets/trufax.png"
                 className="mr-3 h-16"
@@ -17,31 +17,55 @@ export default function Footer() {
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className='mr-28'>
+              <h2 className="mb-6 text-sm font-bold text-black uppercase">Contact us</h2>
+              <ul className="text-blue-900 font-medium">
+                <li className="mb-1 justify-center flex-initial">
+                  <p>608 Skyline Plaza-1, Sushant Golf City, Ansal API, lucknow (U.P.) Pincode</p>
+                </li>
+                <li className="mb-0">
+                  <span>Tell: +91 9670500052</span>
+                </li>
+                <li className="mb-1">
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 9670500052</span>
+                </li>
+                <li className="mb-1">
+                  Email:
+                  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    &nbsp;info@trufax.in
+                  </a>
+                </li>
+                <li className="mb-1">
+                  Website:
+                  <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    &nbsp;www.trufax.in
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
             <div>
               <h2 className="mb-6 text-sm font-semibold text-black uppercase">Resources</h2>
               <ul className="text-blue-900 font-medium">
-                <li className="mb-4">
-                  <Link to="/" className="hover:underline">
+                <li className="mb-3">
+                  <Link to="/home" className="hover:underline">
                     Home
                   </Link>
                 </li>
-                <li>
+                <li className="mb-3">
                   <Link to="/about" className="hover:underline">
                     About
                   </Link>
                 </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-black uppercase">Follow us</h2>
-              <ul className="text-blue-900 font-medium">
-                <li>
-                  <Link to="/" className="hover:underline">
-                    Discord
+                <li className="mb-3">
+                  <Link to="/gallery" className="hover:underline">
+                    Gallery
                   </Link>
                 </li>
               </ul>
             </div>
+
             <div>
               <h2 className="mb-6 text-sm font-semibold text-black uppercase">Legal</h2>
               <ul className="text-blue-900 font-medium">
@@ -109,7 +133,7 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Twitter page</span>
             </Link>
-            
+
           </div>
         </div>
       </div>

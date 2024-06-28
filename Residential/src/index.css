@@ -4,7 +4,7 @@
 
 html,
 body {
-    @apply bg-purple-100;
+    @apply bg-violet-200;
 }
 
 /* carousel slick css */

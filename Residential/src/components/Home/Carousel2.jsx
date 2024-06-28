@@ -6,7 +6,6 @@ const images = [
     '/src/assets/images/one.jpg',
     '/src/assets/images/two.jpg',
     '/src/assets/images/three.jpg',
-    '/src/assets/images/five.jpg',
     '/src/assets/images/twel.jpg',
 ];
 
@@ -36,7 +35,7 @@ function Carousel2() {
             <Slider {...settings}>
                 {images.map((image, index) => (
                     <div key={index}>
-                        <img src={image} alt="" className="object-cover w-full" style={{ height: '40rem' }} />
+                        <img src={image} alt="carousel-images" className="object-cover w-full" style={{ height: '40rem' }} />
                     </div>
                 ))}
             </Slider>

@@ -2,7 +2,9 @@ import React from 'react'
 
 function Advisor() {
   return (
-    <div>Advisor</div>
+    <>
+      <h1>add</h1>
+    </>
   )
 }
 
