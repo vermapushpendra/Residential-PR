@@ -10,7 +10,7 @@ import Contact from './components/Contact/Contact.jsx'
 import Admin from './components/Admin/Admin.jsx'
 import Advisor from './components/Advisor/Advisor.jsx'
 import About from './components/About/About.jsx'
-
+import './index.css';
 
 
 const router = createBrowserRouter([
@@ -57,6 +57,6 @@ const router = createBrowserRouter([
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>,
 )

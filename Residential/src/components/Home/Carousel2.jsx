@@ -40,9 +40,7 @@ function Carousel2() {
                 ))}
             </Slider>
         </div>
-
     );
-
 }
 
 export default Carousel2;
