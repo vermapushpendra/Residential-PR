@@ -6,10 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-      
+      screens: {
+        'default_xl': '1365px',
+      },
 
       colors: {
         customYellow: '#f0e9e0',
+        customWhite: '#f1f1f1',
+        customGold: '#c2ab92',
       },
 
 

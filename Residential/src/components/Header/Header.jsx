@@ -36,16 +36,7 @@ export default function Header() {
             id="mobile-menu-2"
           >
             <ul className="flex lg:space-x-7 items-center">
-              <li>
-                <NavLink
-                  to="/home"
-                  className={({ isActive }) =>
-                    `block py-2 duration-200 ${isActive ? "underline underline-offset-8" : ""} hover:text-orange-600 lg:p-0`
-                  }
-                >
-                  Home
-                </NavLink>
-              </li>
+              
               <li>
                 <NavLink
                   to="/about"
@@ -154,6 +145,7 @@ export default function Header() {
                   className={({ isActive }) =>
                     `block py-2 px-6 lg:py-3 lg:px-6 ${scrollPos > 0 ? `${isActive ? "text-white bg-black" : "text-black"}` : `${isActive ? "text-white bg-black" : "text-black bg-white"}`}`
                   }
+                
                 >
                   Contact
                 </NavLink>
