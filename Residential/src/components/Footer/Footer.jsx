@@ -7,7 +7,7 @@ function Footer() {
         <img src="src/assets/images/footer.jpeg" alt="footer" className="lg:h-screen h-full w-full object-cover absolute inset-0" />
 
         <div className="relative flex items-center justify-center h-screen text-white">
-          <div className="bg-black bg-opacity-80 px-14 py-20 rounded-lg text-center mx-[390px]">
+          <div className="bg-black bg-opacity-80 px-14 py-12 sm:py-20 rounded-lg text-center mx-6 md:mx-14 lg:mx-48 xl:mx-96 2xl:mx-[390px]">
             <h2 className='text-[29px] lg:text-[34px]'>
               WORK WITH US
             </h2>
@@ -23,32 +23,33 @@ function Footer() {
       </div>
 
       <footer className="bg-black text-white py-8">
-        <div className="">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center text-center sm:text-left">
-          
-          <div className='col-span-1 flex flex-col justify-center items-center text-center h-full'>
-          <h2 className="text-white">Random Company</h2>
-              <p>
+        <div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center text-center sm:text-left mt-16">
+
+            <div className='col-span-1 flex flex-col justify-start text-center h-full text-lg'>
+              <h2 className="text-white">COMPANY</h2>
+              <p className="mt-1 md:mt-4 italic">
                 608 Skyline Plaza-1
                 <span className="block">Sushant Golf City, Ansal API</span>
                 <span className="block">Lucknow, UP 226020</span>
               </p>
             </div>
 
-            <div className='col-span-1 flex flex-col justify-center items-center text-center h-full'>
-            <h2 className="text-white">Location</h2>
-              <ul className="text-white font-medium">
-                <li className="mb-3">
-                  <Link to="/home" className="hover:underline">
-                    Home
-                  </Link>
-                </li>
-              </ul>
+            <div className='col-span-1 flex flex-col justify-start text-center h-full text-lg mt-2 md:mt-0'>
+              <h2 className="text-white ">LOCATION</h2>
+              <div className="mt-1 md:mt-4 flex justify-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.2761027224115!2d80.93619419798691!3d26.86296759993631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd99491cd3df%3A0xef84c13754ef7e48!2sUniversity%20of%20Lucknow!5e0!3m2!1sen!2sin!4v1720213249465!5m2!1sen!2sin"
+                  className="w-72 h-28 sm:w-80 sm:h-32 md:w-64 md:h-24 lg:w-96 lg:h-28"
+                  style={{ border: 0 }}
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
             </div>
 
-            <div className='col-span-1 flex flex-col justify-center items-center text-center h-full'>
-            <h2 className="text-white">Contact</h2>
-              <ul className="text-white">
+            <div className='col-span-1 flex flex-col justify-start text-center h-full text-lg mt-2 md:mt-0'>
+              <h2 className="text-white">CONTACT</h2>
+              <ul className="text-white mt-1 md:mt-4 italic">
                 <li>
                   <Link to="#" className="underline">
                     email@gmail.com
@@ -62,31 +63,33 @@ function Footer() {
               </ul>
             </div>
           </div>
+
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 items-center">
-          <div className="col-span-1 flex justify-center md:justify-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 items-center mx-14 lg:mx-10 xl:mx-24 gap-8 text-lg mt-24 mb-7">
+          <div className="col-span-1 lg:col-span-4 flex flex-col items-center lg:items-start">
             <img
               src="/src/assets/logo2.png"
-              className="h-16"
+              className="h-20 sm:h-24 lg:h-16"
               alt="Logo"
             />
-          </div>
-          <div className="col-span-1 text-center md:text-left">
-            <p>
+            <p className="text-center mt-2 md:pr-24 text-sm sm:text-lg ">
               © Copyright 2024
               <span className="block">Company Name, All Rights Reserved.</span>
             </p>
-            <p className="mt-2">
+          </div>
+
+          <div className="col-span-1 lg:col-span-8 text-center md:text-left">
+            <p className="mt-2 md:text-lg">
               What company doing detail of company Fusce vel libero id urna dapibus posuere. Curabitur scelerisque magna eu ante gravida, nec convallis lectus luctus. Proin varius arcu sit amet felis dapibus fermentum. Integer non justo eget velit sit amet risus. velit sit amet risus. Proin varius arcu sit amet felis dapibus fermentum. Integer non justo eget velit sit amet risus. velit sit amet risus. Proin varius arcu sit amet felis dapibus fermentum. Integer non justo eget velit sit amet risus. velit sit amet risus.
             </p>
           </div>
         </div>
 
-        <div className="flex mt-4 space-x-5 justify-center sm:justify-start">
+        <div className="flex space-x-8 justify-center ">
           <Link to="#" className="text-gray-400 hover:text-gray-100">
             <svg
-              className="w-4 h-4"
+              className="w-5 h-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -102,7 +105,7 @@ function Footer() {
           </Link>
           <Link to="#" className="text-gray-400 hover:text-gray-100">
             <svg
-              className="w-4 h-4"
+              className="w-5 h-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -114,7 +117,7 @@ function Footer() {
           </Link>
           <Link to="#" className="text-gray-400 hover:text-gray-100">
             <svg
-              className="w-4 h-4"
+              className="w-5 h-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
